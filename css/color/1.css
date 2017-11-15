@@ -1,0 +1,110 @@
+									/* ------------------------===============================================----------------------------- */
+															/* ---------------->>> COLOR CSS <<<------------- */
+									/* ------------------------================================================---------------------------- */ 
+									
+							
+/*--------------------------------------------------------------------
+						GENERAL
+----------------------------------------------------------------------*/
+.theme-bg {
+	background-color:#fcc915;
+}
+.text-color,.typo-white .text-color,.reply-link {
+	color:#fcc915;
+}
+a:hover,a:focus,
+.typo-white a:hover,.typo-white a:hover {
+	color:#fcc915;
+}
+.navbar-default.navbar-transparent .navbar-nav > li > a:focus, .navbar-default.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-default.navbar-transparent .navbar-nav > .open > a, 
+.navbar-default.navbar-transparent .navbar-nav > .open > a:focus, 
+.navbar-default.navbar-transparent .navbar-nav > .open > a:hover, 
+.navbar-default.navbar-transparent .navbar-nav > li:hover > a,
+.navbar-default.navbar-transparent .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li > a.ion-navicon.opened:before {
+	color: #fcc915;
+}
+.full-search-wrapper .form-control:focus {
+	border-color: #fcc915;
+}
+.owl-theme .owl-nav > div:hover {
+	background-color:#fcc915;
+}
+.panel-group .panel-title > a {
+	background-color:#fcc915;
+}
+.btn.btn-default,.rev_slider .btn.btn-default:hover,.rev_slider .btn.btn-default:focus  {
+	background-color:#fcc915;
+	border-color:#fcc915;
+}
+.btn.btn-default:hover,
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+	border-color:#fcc915;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color:#fcc915;
+	border-color:#fcc915;
+}
+h3.title:after,h4.widget-title:after {
+	border-bottom-color:#fcc915;
+}
+.open-position .table > thead > tr > th.active::after {
+	background-color:#fcc915;
+}
+.history-list:hover .history-img-wrapper .date {
+	background-color:#fcc915;
+}
+/* =================================================================== 
+							IMAGE BOX
+======================================================================*/
+.image-box:hover .box-inner > div.title-wrapper {
+	background:#fcc915;
+}
+/* =================================================================== 
+							WORK FLOW BOX
+======================================================================*/
+.work-flow:hover {
+	background-color:#fcc915;
+	border-color:#fcc915;
+}
+/* =================================================================== 
+							PROJECT GRID
+======================================================================*/
+/* PORTFOLIO SLIDER FILTER */
+.btn-filter-wrap .btn-filter.btn-active {
+	color:#fcc915;
+}
+ul.tags > li > a:hover ,ul.tags > li > a:focus {
+	background-color:#fcc915;
+}
+/* =================================================================== 
+							FAQ
+======================================================================*/
+.faq:hover .faq-number {
+	background-color:#fcc915;
+}
+/* =================================================================== 
+							WIDGET
+======================================================================*/
+.about-menu-widget ul > li > a:hover,.about-menu-widget ul > li > a:focus,.about-menu-widget ul > li > a.active {
+	background:#fcc915;
+}
+@media only screen and (min-width:768px) {
+	.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+		background:#fcc915;
+	}
+}
+/*--------------SELECTION---------------*/
+::selection{
+	background:#fcc915; color:#111;
+}
+::-moz-selection{
+	background:#fcc915; color:#111;
+}
+::-ms-selection{
+	background:#fcc915; color:#111;
+}
+::-webkit-selection{
+	background:#fcc915; color:#111;
+}

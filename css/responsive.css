@@ -1,0 +1,340 @@
+/******************************************************************************
+  Min Width "990px"
+*******************************************************************************/
+@media only screen and (min-width:990px) {
+	
+}
+/******************************************************************************
+  Min Width "768px"
+*******************************************************************************/
+@media only screen and (min-width:768px) {
+	/* =================================================================== 
+						NAVIGATION MENU
+	======================================================================*/
+	.navbar-default .navbar-nav > li {
+		display:inline-block;
+		float:none;
+		vertical-align:middle;
+		padding:0 15px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		line-height: 125px;
+		padding: 0;
+	}
+	.navbar-default.navbar-transparent .navbar-nav > li > a {
+		color:#fff;
+	}
+	.is-sticky .navbar-default .navbar-nav > li > a {
+		line-height:65px;
+	}
+	/* DROPDOWN */
+	.dropdown-menu {
+		box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);	-webkit-box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);	-moz-box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);
+		-ms-box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);	-o-box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);
+		border:none;
+		border-radius:0;	-webkit-border-radius:0;	-moz-border-radius:0;	-ms-border-radius:0;	-o-border-radius:0;
+		display: block;
+		min-width: 170px;
+		opacity: 0;
+		padding: 0;
+		margin:0;
+		transition:0.3s all ease-in-out;-webkit-transition:0.3s all ease-in-out;-moz-transition:0.3s all ease-in-out;-ms-transition:0.3s all ease-in-out;-o-transition:0.3s all ease-in-out;
+		visibility: hidden;
+	}
+	.dropdown:hover > .dropdown-menu {
+		opacity:1;
+		visibility: visible;
+	}
+	.navbar-nav .dropdown-menu {
+		left: 0;
+		right: auto;
+	}
+	.navbar-nav .dropdown-menu .sub-dropdown-menu {
+		left:100%;
+		top:0;
+	}
+	.navbar-right > li:last-of-type .dropdown-menu .sub-dropdown-menu,
+	.navbar-right > li:nth-last-child(2) .dropdown-menu .sub-dropdown-menu {
+		right:100%;
+		left:auto;
+		top:0;
+	}
+	.dropdown-menu > li > a  {
+		font-size: 13px;
+		font-weight: 800;
+		padding: 0 20px;
+		line-height:40px;
+		text-transform: uppercase;
+	}	
+	.dropdown-menu span.dropdown-toggle {
+		position: absolute;
+		right: 20px;
+		top: 3px;
+	}
+	.add-info-section {
+		margin-top:-150px;
+	}
+	.btn-filter-wrap .btn-filter.all-filter {
+		float:right;
+	}
+	.nav-type-2 {
+		text-align:center;
+	}
+	.nav-type-2.navbar-default .navbar-nav > li > a {
+    	letter-spacing: 1px;
+	}
+	.navbar-nav.navbar-center {
+		display: inline-block;
+		float: none;
+	}
+}	
+/******************************************************************************
+  Max Width "991px"
+*******************************************************************************/
+@media only screen and (min-width:991px){
+	body.boxed {
+		padding:50px;
+		overflow-x:hidden;
+	}
+	.boxed .page-wrapper {
+		overflow:hidden;
+		position:relative;
+	}
+	.boxed .navbar-transparent {
+		left:0;
+		right:0;
+	}
+	.boxed .is-sticky #nav-sticker {
+		left:0;
+		right:0;
+	}
+}	
+
+/******************************************************************************
+  Max Width "991px" and Min Width 768
+*******************************************************************************/
+@media (max-width:990px) and (min-width:768px) {
+	
+}
+/******************************************************************************
+  Max Width "991px"
+*******************************************************************************/
+@media only screen and (max-width:991px){
+	.col-md-1, .col-md-10, .col-md-11, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+		margin-bottom:55px;
+	}
+	.row > div[class^="col-md"]:last-child {
+		margin-bottom: 0;
+	}
+	.row .row > div[class^="col-md"]:last-child {
+		margin-bottom: 55px;
+	}
+	/* =================================================================== 
+						ISOTOPE GRID
+	======================================================================*/
+	/* GRID 3 COLUMN */
+	.isotope-grid.column-3 .grid-sizer,
+	.isotope-grid.column-3 .grid-item { width: 50%; }
+	/* GRID 4 COLUMN */
+	.isotope-grid.column-4 .grid-sizer,
+	.isotope-grid.column-4 .grid-item { width: 50%; }
+	
+}
+/******************************************************************************
+  Max Width "767px"
+*******************************************************************************/
+
+@media screen and (max-width: 767px){
+	.animated {
+		visibility:visible;
+		animation:none;
+		-webkit-animation:none;
+		-moz-animation:none;
+		-ms-animation:none;
+		-o-animation:none;
+	}
+	.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+		margin-bottom:55px;
+	}
+	.row > div[class^="col-sm"]:last-child {
+		margin-bottom: 0;
+	}
+	.img-responsive {
+		width:100%;
+	}
+	.add-info-section {
+		padding:150px 0 0;
+	}
+	.info-box {
+		background:#333; 
+	}
+	/* =================================================================== 
+						NAVIGATION MENU
+	======================================================================*/
+	.nav-top {
+		padding:10px 0;
+	}
+	.nav-top .list-inline > li {
+		line-height: 25px;
+	}
+	.nav-top .list-inline ,.nav-top .list-inline.pull-right{
+		display:block;
+		float:none!important;
+		text-align:center;
+	}
+	.navbar-nav {
+		margin: 0 -15px;
+	}
+	.navbar-toggle {
+		border:none;
+		font-size:32px;
+		color:#111;
+		margin-top:0;
+		margin-bottom:0;
+		padding:0;
+		line-height:125px;
+	}
+	.navbar-collapse {
+		max-height: 320px;
+	}
+	.is-sticky .navbar-toggle {
+		line-height:65px
+	}
+	.navbar-toggle.collapsed {
+		font-size:36px;
+	}
+	.navbar-toggle.collapsed .ion-android-close:before {
+		content:"\f20e";
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	.navbar-default .navbar-collapse {
+		background:#fff; 
+	}
+	.navbar-default .navbar-nav > li {
+		padding: 0 15px;
+	}
+	.navbar-default .navbar-nav.navbar-social > li {
+		display:inline-block;
+		padding: 0 10px;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .dropdown > a {
+		display:block;
+		line-height: 25px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		color:#111;
+	}
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open > a:focus, 
+	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > li:hover > a,
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li.dropdown > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li.dropdown > a:focus {
+		color: #fff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li.dropdown > a {
+		color:#fff;
+		background-color: #111;
+	}
+	.navbar-nav .open .dropdown-menu > li > a {
+		line-height: 25px;
+	}
+	.navbar-nav .open .dropdown-menu > li.dropdown > a {
+		padding: 10px 15px 10px 25px;
+	}
+	.navbar-nav .open .dropdown-menu {
+		border-radius:0;	-webkit-border-radius:0;	-moz-border-radius:0;	-ms-border-radius:0;	-o-border-radius:0;
+		padding:0;
+	}
+	.navbar-nav .open .dropdown-menu.sub-dropdown-menu {
+		padding-left: 15px;
+	}
+	.navbar-default span.dropdown-toggle {
+		cursor:pointer;
+		display: inline-block;
+		font-size: 25px;
+		height: 25px;
+		line-height: 25px;
+		position: absolute;
+		right: 15px;
+		text-align: center;
+		top: 10px;
+		width: 25px;
+		color:#fff;
+		font-size:10px;
+	}
+	.navbar-default span.dropdown-toggle i {
+		color:#202427;
+	}
+	.navbar-default span.dropdown-toggle > i:before {
+		content:"\f3d3";
+	}
+	.navbar-default .navbar-nav .dropdown.open > span.dropdown-toggle > i:before {
+		content:"\f3d0";
+	}
+	/*--------------------------------------------------------------------
+						PAGE TITLE
+	----------------------------------------------------------------------*/
+	.page-title .page-title-wrapper p {
+		margin-bottom:15px;
+	}
+	.page-title .page-title-wrapper .breadcrumb {
+		display:inline-block;
+		position:static;
+		transform: none;-webkit-transform: none;-moz-transform: none;-ms-transform: none;-o-transform: none;
+		margin-top:20px;
+	}
+	/* =================================================================== 
+						ABOUT US IMAGE
+	======================================================================*/
+	.about-image-wrapper {
+		background-position: right top;
+		display: inline-block;
+		text-align: left;
+		padding-right:100px;
+	}
+	/* =================================================================== 
+						TEAM
+	======================================================================*/
+	.team-list .team-img-wrapper {
+		width:50%;
+	}
+	/* =================================================================== 
+						ISOTOPE GRID
+	======================================================================*/
+	.isotope-grid.column-2 .grid-sizer,
+	.isotope-grid.column-2 .grid-item { width: 100%; }
+	/* GRID 3 COLUMN */
+	.isotope-grid.column-3 .grid-sizer,
+	.isotope-grid.column-3 .grid-item { width: 100%; }
+	/* GRID 4 COLUMN */
+	.isotope-grid.column-4 .grid-sizer,
+	.isotope-grid.column-4 .grid-item { width: 100%; }
+	
+	.copyright,.footer-menu {
+		margin-bottom:0!important;
+		text-align:center;
+	}
+	
+}
+/******************************************************************************
+  Max Width "480px"
+*******************************************************************************/
+@media screen and (max-width: 480px){
+	/* =================================================================== 
+						TEAM
+	======================================================================*/
+	.team-list .team-img-wrapper,.team-list .team-content-wrapper {
+		display:block;
+		width:100%;
+		padding:0;
+		text-align:center;
+	}
+	.team-list .team-img-wrapper img {
+		margin-bottom:25px;
+	}
+}
